@@ -10,17 +10,16 @@ namespace Calculator
             Console.WriteLine("Pad with 0s : {0:d4}", 23);
             Console.WriteLine("3 Decimals : {0:f3}", 23.45555);
             Console.WriteLine("Commas : {0:n4}", 2300);
-            // comments same
+            // single-line comments same
             /* multi line comments are the
-             * s
-             * a
-             * m
-             * e*/
+             * same 
+             */
             int i;
             for (i = 0; i < 10; i++)
             {
-                Console.WriteLine("ForLoopC#");
+                Console.WriteLine("ForLoopC#"); 
             }
+            // Committed w/ message && pushed through VS Studio
         }
     }
 }
